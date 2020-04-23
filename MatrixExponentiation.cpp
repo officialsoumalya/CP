@@ -7,6 +7,7 @@ ll k,n;
 vector<ll> c,b;
 vector<vector<ll>> mul(vector<vector<ll>> A, vector<vector<ll>> B)
 {
+    //matrix multiplication
     vector<vector<ll>> C(k+1,vector<ll>(k+1));
     ll i,j,x;
     for(i=1;i<=k;i++)
